@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f9f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Container Layout */
+.webd {
+  display: flex;
+  gap: 50px;
+  max-width: 900px;
+  width: 100%;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Side - Text Section */
+.individuals {
+  flex: 1;
+}
+
+.individuals h1 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.individuals p {
+  display: inline;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Right Side - Form Section */
+.reg {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.basics {
+  
+    flex: 1 1 2%; /* Grow, shrink, and take about 48% width */
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  background: #00c2a8;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background: #009f8c;
+}
+
+p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  color: #666;
+}
+
+a {
+  color: #00c2a8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

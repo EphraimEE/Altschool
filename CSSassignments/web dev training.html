@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fourth assignment</title>
+    <link rel="stylesheet" href="webdev.css">
+  </head>
+  <body>
+    <div class="webd">
+      <div class="individuals">
+        <h1>For Individuals</h1>
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organisational wellness.
+        </p>
+      </div>
+      <div class="reg">
+        <form>
+          <div class="basics">
+            <div id="fname">
+            <label for="fname">First Name</label>
+            <input type="text" name="First Name" id="fname" />
+            </div>
+            <div id="lname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="Last Name" id="lname" />
+            </div>
+            <div id="gender">
+            <label for="gender">Gender</label>
+            <input
+              list="gender-options"
+              id="gender"
+              name="gender"
+              placeholder="Select here"
+            />
+            <datalist id="gender-options">
+              <option value="Male"></option>
+              <option value="Female"></option>
+              <option value="Other"></option>
+              <option value="Prefer not to say"></option>
+            </datalist>
+            </div>
+            <div id="date">
+            <label for="date">Date of Birth</label>
+            <input
+              type="date"
+              name="date of birth"
+              id="date"
+              placeholder="Select here"
+            />
+            </div>
+            <div id="weight">
+            <label for="weight">Weight (KG)</label>
+            <input
+              type="text"
+              name="weight"
+              id="weight"
+              placeholder="Enter Weight"
+            />
+            </div>
+            <div id="height">
+            <label for="height">Height (CM)</label>
+            <input
+              type="text"
+              name="height"
+              id="height"
+              placeholder="Enter height here.."
+            />
+            </div>
+          </div>
+          <div class="activity">
+            <label for="level">Activity Level</label>
+            <input
+              list="levels"
+              id="level"
+              name="level"
+              placeholder="Select here"
+            />
+            <datalist id="levels">
+              <option value="rookie"></option>
+              <option value="one-star"></option>
+              <option value="two-star"></option>
+              <option value="three-star"></option>
+              <option value="advanced"></option>
+              <option value="master"></option>
+            </datalist>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+            <button>Register</button>
+            <P>By clicking Register, you agree to our <a href="#" target="_blank">Terms of Use</a>and our <a href="#" target="_blank">Privacy Policy</a>  </P>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
